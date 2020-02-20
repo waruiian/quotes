@@ -1,0 +1,14 @@
+<input id="myInput" type="text">
+<button onclick="myFunction()">insert text </button>
+<p id="ans"></p>
+
+<script>
+    function myFunction(){
+        var text = document.getElementById("myInput").value;
+        var i;
+        for (i=0; i<5; i++){
+            text + i + "<br>";
+        }
+        document.getElementById("ans").innerHTML = text;
+    }
+</script>
